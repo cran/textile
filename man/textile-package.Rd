@@ -9,7 +9,7 @@
 Textile Images
 }
 \description{
-Real images of the same textile material with/without local defects, which were used in Bui and Apley (2017).
+Real images of the same textile material with/without local defects, which were used in Bui and Apley (2018).
 }
 \usage{
 data("trainImg")
@@ -25,7 +25,7 @@ data("ocImgs")
   }
 }
 \details{
-The images were taken at a scale that shows their weave patterns, which exhibit a great deal of stochastic behavior. They are examples of the stochastic textured surface data, defined in Bui and Apley (2017). These images were used in Bui and Apley (2017) to demonstrate their general approach for monitoring and diagnosing stochastic textured surface data for local defects. The data set contains three objects:
+The images were taken at a scale that shows their weave patterns, which exhibit a great deal of stochastic behavior. They are examples of the stochastic textured surface data, defined in Bui and Apley (2018). These images were used in Bui and Apley (2018) to demonstrate their general approach for monitoring and diagnosing stochastic textured surface data for local defects. The data set contains three objects:
 
 \code{trainImg } stores the greyscale values of a textile image of size 500x500 pixels without local defects. It can be used to train a supervised learning model that captures the normal in-control statistical behavior of the textile.
 
@@ -34,7 +34,7 @@ The images were taken at a scale that shows their weave patterns, which exhibit 
 \code{ocImgs } stores the greyscale values of 6 textile images of size 250x250 pixels with local defects. These images can be used to test the constructed control limits and diagnostic thresholds.
 }
 \references{
-Bui, A.T., and Apley., D.W. (2017) A Monitoring and Diagnostic Approach for Stochastic Textured Surfaces", Technometrics (in press).
+Bui, A.T., and Apley., D.W. (2018). A Monitoring and Diagnostic Approach for Stochastic Textured Surfaces. Technometrics, 60, 1-13.
 }
 \examples{
 data("trainImg")
